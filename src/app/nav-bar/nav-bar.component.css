@@ -1,0 +1,16 @@
+.navbar-nav .nav-link {
+    cursor: pointer; /* Altera o cursor para uma mãozinha */
+}
+
+.navbar {
+  background-color: var(--primary-light);
+  color: #000000;
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.navbar a:hover {
+  color: var(--accent);
+}

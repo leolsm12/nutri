@@ -1,0 +1,9 @@
+<section class="blog-container">
+    <div class="card" *ngFor="let receita of receitas">
+      <img [src]="receita.image" alt="{{receita.title}}" class="card-image">
+      <div class="card-content">
+        <h2 class="card-title">{{receita.title}}</h2>
+        <p class="card-description">{{receita.description}}</p>
+      </div>
+    </div>
+  </section>

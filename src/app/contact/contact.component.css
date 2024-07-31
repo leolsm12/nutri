@@ -1,0 +1,152 @@
+/* Container principal da página de contato */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    height: 100vh; 
+  }
+  
+  /* Informações de contato */
+  .contact-info {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-dark);
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    color: var(--secondary-dark);
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .contact-list li {
+    flex: 1 1 calc(50% - 1rem); /* Ajusta o tamanho dos ícones para duas colunas */
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--secondary-dark);
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilização do formulário */
+  .contact-form-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .contact-form-box {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contact-form-box h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--secondary-dark);
+  }
+
+  .contact-info .icon-img {
+    width: 6vw; /* Tamanho do ícone ajustável conforme a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 40px; /* Tamanho máximo para garantir que o ícone não fique muito grande */
+    max-height: 40px; /* Tamanho máximo para garantir que o ícone não fique muito grande */
+    object-fit: cover; /* Ajusta o tamanho da imagem mantendo a proporção */
+    margin-left: 0.5rem;
+  }
+
+  .contact-info li img {
+    vertical-align: middle;
+    width: 6vw; /* Tamanho do ícone ajustável conforme a largura da tela */
+    height: auto; 
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--secondary-dark);
+    color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    color: var(--secondary-dark);
+    background: var(--primary);
+  }
+
+  
+  
+  /* Estilos de responsividade */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-info,
+    .contact-form-container {
+      max-width: 100%;
+    }
+  }
+  

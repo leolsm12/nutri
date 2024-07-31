@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Cores principais */
+:root {
+    --primary-light: #AFFFF3;
+    --primary: #2EE0C6;
+    --secondary-dark: #048B63;
+    --accent: #FF9C75;
+    --neutral-light: #FFE0D2;
+  }
+  
+  /* Corpo do site */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--neutral-light);
+    color: var(--secondary-dark);
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--primary);
+  }
+  
+  .navbar a {
+    color: #fff;
+  }
+  
+  .navbar a:hover {
+    color: var(--accent);
+  }
+  
+  /* Botões */
+  button,
+  .submit-btn {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover,
+  .submit-btn:hover {
+    background-color: var(--secondary-dark);
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #fff;
+    border: 1px solid var(--primary-light);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: var(--primary-light);
+    color: var(--secondary-dark);
+  }
+  
+  .card-body {
+    color: var(--secondary-dark);
+  }
+  
+  /* Links */
+  a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--accent);
+  }
+  
+  /* Headers */
+  h1, h2, h3 {
+    color: var(--secondary-dark);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--secondary-dark);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
