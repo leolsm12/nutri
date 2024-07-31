@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Receita de Bolo de Chocolate",
+      "description": "Um delicioso bolo de chocolate com cobertura cremosa.",
+      "image": "assets/fotos/receita1.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Receita de Panquecas",
+      "description": "Panquecas fofas e macias, perfeitas para o café da manhã.",
+      "image": "assets/fotos/receita2.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Receita de Salada Caesar",
+      "description": "Uma refrescante salada Caesar com molho cremoso e crotons.",
+      "image": "assets/fotos/receita1.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Receita de Sopa de Tomate",
+      "description": "Uma sopa de tomate reconfortante e saborosa.",
+      "image": "assets/fotos/receita3.jpeg"
+    }
+  ]
