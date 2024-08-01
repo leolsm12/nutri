@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:nutri": "node dist/nutri/server/server.mjs"
+    "serve:ssr:nutri": "node dist/nutri/server/server.mjs",
+    "deploy:ghdocs": "ng build --prod --output-path docs --base-href /nutri/"
   },
   "private": true,
   "dependencies": {
